@@ -1,0 +1,803 @@
+/*
+.........................................................
+
+ Theme Name: Ormmakal
+ Theme URI: http://ormmakal.com/
+ Description: This theme was developed for Ormmakal.com
+ Version: 1.0
+ Author: Liji Jinaraj
+ Author URI: http://karmadude.com/
+
+ Ormmakal v1.0
+
+ This theme was designed and built by Liji Jinaraj
+.........................................................
+
+*/
+
+html, body, form, fieldset, ul, ol, dl, address
+{
+   margin:0;
+   padding:0;
+   border: none;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    background: #dccb94 url(../img/bodybg.gif) repeat-x;
+    font-size: 10px;
+    line-height: 1.3em;
+    font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+}
+
+    #container {
+       margin: 0 auto;
+       padding: 0px;
+       width: 824px;
+       text-align: center;
+    }
+
+       /* ....:HEADER:........................................*/
+
+        #header {
+           position: relative;
+           width: 824px;
+           height: 104px;
+           padding: 0;
+           margin: 0 auto;
+           background: transparent;
+           text-align: center;
+        }
+
+            #logo {
+               position: relative;
+               float: left;
+               width: 216px;
+               height: 104px;
+            }
+
+            #searchbox {
+               position: relative;
+               float: right;
+               width: 240px;
+               height: 104px;
+               background: #c72228 url(../img/searchbg.gif) no-repeat;
+            }
+
+                #searchform
+                {
+                    margin: 9px 0 0 12px;
+                    text-align: left;
+                    line-height: 0.5em;
+                }
+
+                    #searchform label
+                    {
+                        display: block;
+                        font-size: 1.2em;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        padding: 0 0 6px 0;
+                    }
+
+                    #s
+                    {
+                        float: left;
+                        width: 175px;
+                    }
+
+                    #submitbtn
+                    {
+                        float: left;
+                    }
+
+        /* ....:NAVIGATION:........................................*/
+
+        #navigation {
+            position: relative;
+            height: 32px;
+            width: 824px;
+            padding: 1px 0 0 0;
+            font-size: 1.4em;
+            line-height: 1.6em;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+            #navigation ul {
+                margin:5px 0 0 0;
+                padding: 0;
+                list-style: none;
+                color: #ebe2c2;
+                position:relative;
+            }
+
+            #navigation ul li {
+                display: inline;
+                margin:0 -4px 0 0;
+                padding: 0;
+            }
+
+            #navigation ul li a {
+                padding: 8px 22px;
+                text-decoration: none;
+                margin: 0;
+                color: #3e2e08;
+            }
+
+
+            #navigation ul li a:hover {
+                color: #3e2e08;
+                background: transparent url(../img/tabselbg.png) repeat-x 0 0;
+            }
+
+            #home #nHome a,
+            #archives #nArchives a,
+            #contact #nContact a,
+            #blogroll #nBlogroll a,
+            #kerala #nKerala a {
+                color: #f7f7f7;
+                background: transparent url(../img/tabbg.png) repeat-x 0 0;
+            }
+
+        /* ....:CONTENT:........................................*/
+
+        #contentwrapper {
+            position: relative;
+            width: 824px;
+            padding: 20px 0 0 0;
+            background: #dccb94 url(../img/contentbg.png) repeat-y;
+        }
+
+            #contentcol {
+                position: relative;
+                float: left;
+                width: 398px;
+                padding: 0 12px 50px 0;
+                text-align: left;
+                font-size: 1.5em;
+                line-height: 1.6em;
+                color: #574722;
+            }
+
+                #contentcol img {
+                   border: #b19d6d 3px solid;
+       margin: 0 0 12px 0;
+                }
+
+                #contentcol a {
+                    color: #ce2113;
+                }
+
+                #contentcol a:hover {
+                    color: #f7f7f7;
+                }
+
+                #pagetitle
+                {
+                    background: url(../img/pagetitlebg.png) top left no-repeat;
+                    width: 398px;
+                    height: 59px;
+                    text-align: center;
+                    padding: 7px 0 0 0;
+                    margin:12px 0 0 0;
+                }
+
+                    #blogroll #pagetitle
+                    {
+                        background: url(../img/blogrolltitlebg.png) top left no-repeat;
+                        color: #c72228;
+                        padding: 7px 0 0 0;
+                        margin:12px 0 0 0;
+                    }
+
+          #archives #pagetitle
+          {
+            color: #754700;
+            font-size: 18px;
+          }
+
+                #contentcol blockquote {
+                    margin: 10px 0;
+                    font-family: Georgia;
+                    font-size: 12px;
+                    line-height: 1.6em;
+                    background: #d1d7c5;
+                    color: #607b29;
+                    padding: 1px 12px;
+                    border-top: 3px solid #fff;
+                    border-bottom: 2px dotted #fff;
+                }
+
+                    #contentcol blockquote.pullq {
+                        margin: 0;
+                        font-family: Georgia;
+                        font-size: 1em;
+                        line-height: 1.4em;
+                        color: #135ece;
+                        padding: 0 0 0 12px;
+                        background: transparent;
+                        float: right;
+                        width: 150px;
+                        border: none;
+                    }
+
+                #contentcol .wp-smiley {
+                    border: none;
+                }
+
+                /* ....:CONTACT:.....................................*/
+
+                #contactbox
+                {
+                    background: url(../img/contactbg.jpg) top left no-repeat;
+                    width: 398px;
+                    height: 685px;
+                    margin: 10px 0 0 0;
+                    color: #283339;
+                }
+
+                    #contactbox h2
+                    {
+                        margin: 3px 0 0 0;
+                        text-align: center;
+                        color: #283339;
+                        padding: 5px 0 0 0;
+                    }
+
+                #contactform
+                {
+                    margin: 35px 0 0 35px;
+                }
+
+                    #bx_messageblock
+                    {
+                        margin: 0 0 0 0;
+                    }
+
+                    #bx_message
+                    {
+                        width: 330px;
+                        height: 165px;
+                    }
+
+                    #bx_captchablock
+                    {
+                        margin: 30px 0 0 0;
+                        line-height: 1em;
+                        width: 330px;
+                    }
+
+                /* ....:POST:........................................*/
+
+                #contentcol .post {
+                    margin: 0 0 40px 0;
+                    padding: 0 0 30px 0;
+                    background: url(../img/postbg.png) bottom left no-repeat;
+                font-size: 0.9em;
+                line-height: 1.4em;
+                }
+
+                    #contentcol .postheaderwrapper {
+                        border-bottom: #e8e1c5 1px dotted;
+                        margin: 0 0 12px 0;
+                        padding: 0 0 6px 0;
+                    }
+
+                        #contentcol .postheader {
+                        }
+
+                    #contentcol .post h1 {
+                        font-size: 1.4em;
+                        font-weight: normal;
+                        margin: 0;
+                    }
+
+                    #contentcol .post h2 {
+                        font-size: 1em;
+                        font-weight: bold;
+                        padding: 0;
+                        margin: 0;
+                        color: #0d8200;
+                  border-bottom: 1px solid #E8E1C5;
+                    }
+
+                    #contentcol .post .postinfo {
+                        clear: both;
+                        font-size: 0.8em;
+                        color: #a28b4a;
+                        font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+                    }
+
+                        #contentcol .post .postinfo .date {
+                            color: #6b4c23;
+                        }
+
+                        #contentcol .post .postinfo a {
+                            color: #0d8200;
+                        }
+
+                        #contentcol .post .postinfo a:hover {
+                            color: #eee;
+                            text-decoration: underline;
+                        }
+
+                    #contentcol .post .postfooter {
+                        height: 33px;
+                        width: 398px;
+                        margin: 12px 0 50px;
+                        background: #e8dcaa url(../img/postfooterbg.gif) no-repeat;
+                    }
+
+                    #contentcol .post ol {
+                        padding: 10px 0;
+                    }
+
+                        #contentcol .post ol li {
+                            padding: 5px 0;
+                        }
+
+                /* ....:ARCHIVE:......................................*/
+
+                #archives h3 {
+                    font-size: 1.4em;
+                    font-weight: normal;
+                    padding: 12px 0 0 0;
+                    margin: 0 0 12px 0;
+                    border-bottom: #e8e1c5 1px dotted;
+                    text-transform: uppercase;
+                }
+
+                    .archivepost {
+                        padding: 12px;
+                        margin: 12px 0;
+                        overflow: hidden;
+                    }
+                        div.archivepost:hover {
+                            background: #decf9a;
+                        }
+
+                        .archivepost h4 {
+                            font-size: 1.2em;
+                            font-weight: normal;
+                            margin: 0;
+                            padding: 0;
+                        }
+
+                            .archivepost p
+                            {
+                                padding: 0;
+                                margin: 0 0 5px 0;
+                                font-size:0.8em;
+                                line-height:1.4em;
+                            }
+
+                        .archivepost .archivepostinfo {
+                            font-size: 0.8em;
+                            color: #a28b4a;
+                            padding: 0;
+                            margin: -5px 0 0 0;
+                            font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+                        }
+
+                            .archivepost .archivepostinfo .date {
+                                color: #6b4c23;
+                                font-family: Georgia;
+                            }
+
+                            .archivepost .archivepostinfo a {
+                                color: #0d8200 !important;
+                            }
+
+                            .archivepost .archivepostinfo a:hover {
+                                color: #eee;
+                                text-decoration: underline;
+                            }
+
+
+
+
+                /* ....:COMMENT:........................................*/
+
+                #contentcol .commentsbox {
+                    padding: 0 0 15px 0;
+                }
+
+                    #contentcol .commentsbox .commentsheader {
+                        height: 92px;
+                        width: 398px;
+                        padding: 17px 12px 0 0;
+                        background: url(../img/commentsheaderbg.gif) no-repeat;
+                    }
+
+                        #contentcol .commentsbox .commentsheader h3 {
+                            color: #578652;
+                            font-size: 1.5em;
+                            font-weight: 600;
+                            margin: 0;
+                            padding: 0;
+                        }
+
+                    #contentcol .commentsbox .comment {
+                        padding: 0 0 50px 0;
+                    }
+
+                        #contentcol .commentsbox .comment .gravitar {
+                            float: left;
+                            height: 84px;
+                            width: 70px;
+                            background: url(../img/gravitarbg.png) no-repeat;
+                        }
+
+                            #contentcol .commentsbox .comment .gravitar img {
+                                border: none;
+                                margin: 27px 0 0 15px;
+                                width: 39px;
+                                height: 39px;
+                            }
+
+                        #contentcol .commentsbox .comment .commentcontent {
+              font-size: 12px;
+              line-height: 18px;
+                        }
+
+                            #contentcol .commentsbox .comment .commentcontent .commentinfo {
+                                color: #6b4c23;
+                                font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+                                font-size: 0.8em;
+                                line-height: 1.2em;
+                                border-bottom: #81795a 1px dotted;
+                                padding: 6px 0 12px 0;
+                            }
+
+                                #contentcol .commentsbox .comment .commentcontent .commentinfo .commentauthor {
+                                    font-weight: bold;
+                                }
+
+                    /* ....:RESPONSE:........................................*/
+
+                    #responsebox {
+                        background: url(../img/leavereplybg.gif) no-repeat;
+                        padding: 50px 0 0 0;
+                    }
+                        #respond {
+                            float: left;
+                            margin: 0;
+                            padding: 0;
+                        }
+
+                        #responsegravitar {
+                            float: right;
+                            height: 84px;
+                            width: 70px;
+                            background: url(../img/gravitarbg.png) no-repeat;
+                        }
+
+                            #responsegravitar img {
+                                border: none;
+                                margin: 27px 0 0 15px;
+                                width: 39px;
+                                height: 39px;
+                            }
+
+                        #responsecontent {
+                            clear: both;
+                        }
+
+                            #responsecontent input, #responsecontent textarea, #responsecontent select {
+                                border: 1px solid #999;
+                                padding: 3px;
+                            }
+
+            /* ....:SIDEBAR COLUMN 1:........................................*/
+
+            #sidebarcol1 {
+                position: relative;
+                float: left;
+                width: 185px;
+                padding: 4px 14px 0 14px;
+                text-align: left;
+            }
+
+                .sidebarcol1box {
+                    padding: 0 0 15px 0;
+                    color: #747b66;
+                }
+
+                    .sidebarcol1box ul {
+                        list-style: none;
+                        line-height: 1.4em;
+                    }
+
+                    .sidebarcol1box ul li {
+                        border-bottom: 1px dotted #aaa;
+                    }
+
+                        .sidebarcol1box ul li a:hover {
+                            background: #e5ebd8;
+                            color: #ce2113;
+                        }
+
+                        .sidebarcol1box ul li a {
+                            color: #666;
+                            padding: 3px 0;
+                            display: block;
+                        }
+
+                        .sidebarcol1box ul.scrollbox {
+                            height: 350px;
+                            overflow: auto;
+                        }
+
+
+                    .sidebarcol1box h1 {
+                        display: block;
+                        height: 28px;
+                        padding: 12px 0 0 0;
+                        font-size: 1.2em;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        text-align: center;
+                        color: #578652;
+                        background: transparent url(../img/blacksign.jpg) top left no-repeat;
+                    }
+
+                        .sidebarcol1box .feedsign {
+                            background: transparent url(../img/feedsign.jpg) top left no-repeat;
+                        }
+
+                        .sidebarcol1box .commentsign {
+                            background: transparent url(../img/commentsign.jpg) top left no-repeat;
+                        }
+
+                        .sidebarcol1box .blogrollsign {
+                            background: transparent url(../img/blogrollsign.jpg) top left no-repeat;
+                        }
+
+                        .sidebarcol1box .adsign {
+                            background: transparent url(../img/adsign.jpg) top left no-repeat;
+                        }
+
+            /* ....:SIDEBAR COLUMN 2:........................................*/
+
+            #sidebarcol2 {
+                position: relative;
+                float: left;
+                width: 189px;
+                padding: 4px 0 0 12px;
+                text-align: left;
+                font-family: Georgia;
+            }
+
+                .sidebarcol2box {
+                    padding: 0 0 15px 0;
+                    color: #8f6c50;
+                }
+
+                    .sidebarcol2box h1 {
+                        display: block;
+                        height: 28px;
+                        padding: 12px 0 0 0;
+                        font-size: 1.2em;
+                        font-weight: normal;
+                        text-transform: uppercase;
+                        text-align: center;
+                        color: #6d4b2c;
+                        background: transparent url(../img/yellowsign.jpg) top left no-repeat;
+                    }
+
+                        .sidebarcol2box .noticeboard {
+                            background: transparent url(../img/noticeboardbg.jpg) top left no-repeat;
+                        }
+
+                    .sidebarcol2box ul {
+                        list-style: none;
+                        font-size: 1.2em;
+                        line-height: 1.4em;
+                    }
+
+                    .sidebarcol2box ul li {
+                        margin: 0 0 12px 0;
+                    }
+
+                    .sidebarcol2box .newsitem {
+                        font-weight: bold;
+                        font-style: italic;
+                        display: block;
+                        padding: 5px;
+                        line-height: 16px;
+                    }
+
+                        .sidebarcol2box .newsitem:hover {
+                            background: #e6ddb9;
+                            color: #0d8200
+                        }
+
+                        .sidebarcol2box .newsitem .newsdesc {
+                            clear: both;
+                            color: #7a6636;
+                            font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+                            font-weight: normal;
+                            font-style: normal;
+                        }
+
+        /* ....:PHOTOS:........................................*/
+
+        #photos {
+            position: relative;
+            clear: both;
+            width: 794px;
+            height: 144px;
+            padding: 53px 15px 0 15px;
+            background: transparent url(../img/photosbg.gif) top left no-repeat;
+            text-align: left;
+        }
+
+            #photos h6 {
+                position: absolute;
+                top: -3px;
+                left: 150px;
+                font-size: 12px;
+            }
+
+            #photos ul {
+                display: inline;
+                list-style: none;
+                padding: 0 0 0 12px;
+            }
+
+            #photos ul li {
+                display: inline;
+            }
+
+            .photosimg {
+               background: url(../img/photosimgbg.gif) no-repeat left top;
+               padding: 9px;
+               width: 96px;
+               height: 96px;
+               overflow: hidden;
+               margin: 0 18px 0 0;
+            }
+
+            .photosimg:hover {
+               background: url(../img/photosimghoverbg.gif) no-repeat left top;
+            }
+
+                .photosimg.last
+                {
+                    margin: 0;
+                }
+
+    /* ....:END CONTAINER:........................................*/
+
+    /* ....:FOOTER:........................................*/
+
+    #footer {
+       position: relative;
+       width: 100%;
+       height: 123px;
+       padding: 0;
+       margin: 0 auto;
+       background: #393939 url(../img/footerbg.gif) repeat-x;
+       text-align: center;
+       color: #e7e7e7;
+    }
+
+        #footer a {
+            display: inline;
+            text-decoration: none;
+            color: #58a7ff;
+        }
+
+        #footer a:hover {
+            color: #eeef4b;
+        }
+
+        #footercontent {
+           position: relative;
+           margin: 0 auto;
+           width: 824px;
+           height: 113px;
+           padding: 10px 0 0 0;
+           font: 1.1em/1.5em "Helvetica Neue", Helvetica, Arial,sans-serif;
+           text-align: left;
+        }
+
+
+
+/* ....:DEFAULTS:........................................*/
+
+img {
+   border: 0;
+}
+
+a:focus {
+   user-focus: none;
+   outline : none;
+   -moz-user-focus: none;
+   -moz-outline: none;
+}
+
+a,
+a:link {
+   color: #ce2113;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #f7f7f7;
+}
+
+
+/* ....:CEALRFIX:........................................*/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Begin Images */
+.post img {
+    padding: 0;
+    max-width: 100%;
+    }
+
+/*  Using 'class="alignright"' on an image will (who would've
+    thought?!) align the image to the right. And using 'class="centered',
+    will of course center the image. This is much better than using
+    align="center", being much more futureproof (and valid) */
+
+img.centered,
+#contentcol img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    }
+
+img.alignright,
+#contentcol img.alignright {
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
+    padding: 0;
+    }
+
+img.alignleft,
+#contentcol img.alignleft {
+    padding: 4px;
+    margin: 0 7px 2px 0;
+    display: inline;
+    padding: 0;
+    }
+
+.alignright {
+    float: right;
+    margin: 0 0 2px 7px;
+    }
+
+.alignleft {
+    float: left;
+    margin: 0 7px 2px 0;
+    }
+
+.wp-caption-text
+{
+    margin: 0 !important;
+    font-style: italic;
+    font-family: "georgia";
+}
+
+.wp-caption
+{
+    margin: 0 0 12px 0;
+}
+
+/* End Images */
+

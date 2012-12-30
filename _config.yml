@@ -1,0 +1,6 @@
+name: Ormmakal
+auto: true
+paginate: 10
+permalink: /:title
+feed: http://feeds.feedburner.com/Ormmakal
+destination: ../deploy
